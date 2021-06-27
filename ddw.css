@@ -1,0 +1,95 @@
+@charset "UTF-8";
+*{
+font-family: 'Noto Sans KR', sans-serif;
+text-decoration: none;
+margin :10px 130px 0px 10px;
+padding: 0px;
+color:#000;
+}
+a {
+  color : #00B4DB;
+  text-decoration:none;
+  margin:0 0 0 0;
+}
+h1{
+  border-bottom-width:2px;
+  border-bottom-color:black;
+  border-bottom-style:solid;
+  margin:0px;
+}
+
+.mainframe{
+  display:grid;
+  grid-template-columns:350px 709px;
+  margin : 0px 0px 0px 10px;
+}
+.bottom{
+  text-align:center;
+  margin-top:180px;
+  font-size:13px;
+}
+.gridleft{
+  margin:0px;
+  border-right : 1px black solid;
+}
+.gridleft > h2{
+  margin:0px;
+}
+.gridright_tight{
+  margin:0px;
+  display:grid;
+}
+.gridright_tight > img{
+  margin:0px;
+}
+.gridright_loose{
+  display:grid;
+  margin:0px 0px 0px 20px;
+}
+.subframe{
+  display:grid;
+  grid-template-columns:250px 459px;
+  margin : 0px 0px 0px 0px;
+}
+.subframe_left{
+  margin:0px;
+  font-size:12px;
+  text-align:center;
+}
+.subframe_left > img{
+  margin:0px;
+}
+.subframe_right{
+  margin-right:0;
+}
+.members{
+  border-collapse: collapse;
+  text-align:center;
+}
+.members td{
+  width:70px;
+  padding:0px;
+  border:1px black solid;
+}
+.members img{
+  margin:0;
+}
+#history_list{
+  font-size:20px;
+}
+.history_title{
+  border-bottom:1px black solid;
+  width:100%;
+  margin:0;
+}
+.history_body > img{
+margin:0;
+display:inline;
+}
+.history_body > h5{
+  margin:3px;
+}
+#totop{
+  margin-right:10px;
+  text-align:right;
+}
