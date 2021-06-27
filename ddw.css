@@ -77,11 +77,6 @@ h1{
 #history_list{
   font-size:20px;
 }
-.history_title{
-  border-bottom:1px black solid;
-  width:100%;
-  margin:0;
-}
 .history_body > img{
 margin:0;
 display:inline;
@@ -89,7 +84,23 @@ display:inline;
 .history_body > h5{
   margin:3px;
 }
+#emseong{
+  margin-right:1px
+}
+#campfire{
+  margin-right:1px
+}
 #totop{
   margin-right:10px;
   text-align:right;
+}
+#history_title_emseong{
+  border-bottom:1px black solid;
+  width:100%;
+  margin:0;
+}
+#history_title_campfires{
+  border-bottom:1px black solid;
+  width:100%;
+  margin:0;
 }
