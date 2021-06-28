@@ -65,6 +65,8 @@ h1{
 .members{
   text-align:center;
   width:660px;
+  margin:0;
+  border:0px;
 }
 .members td{
   width:220px;
