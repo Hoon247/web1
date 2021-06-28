@@ -7,23 +7,26 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="ddw.css">
   <h1><a href="ddwiki_index.html"><img src="img/mainlogo.png" width="30%" id="mainlogo"></a></h1>
-  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="https://code.jquery.com/jquery-latest.js"></script>
+
   <script>
       $(document).ready(function(){
           $("#emseong").click(function(){
               var offset = $('#history_title_emseong').offset();
-              $('html').animate({scrollTop:scrollHeight}, 0);
+              $('html').animate({scrollTop:offset.top}, 100);
           }) ;
       });
   </script>
+
   <script>
       $(document).ready(function(){
-          $("#gototop").click(function(){
-              var offset = $('#mainlogo').offset();
-              $('html').animate({scrollTop:offset.top}, 0);
+          $("#campfire").click(function(){
+              var offset = $('#history_title_campfire').offset();
+              $('html').animate({scrollTop:offset.top}, 100);
           }) ;
       });
   </script>
+
   <script>
       $(document).ready(function(){
           $("#gototop").click(function(){
