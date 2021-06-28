@@ -63,13 +63,12 @@ h1{
   margin-right:0;
 }
 .members{
-  border-collapse: collapse;
   text-align:center;
+  width:660px;
 }
 .members td{
-  width:70px;
-  padding:0px;
-  border:1px black solid;
+  width:220px;
+  padding:0px 5px 10px 0px;
 }
 .members img{
   margin:0;
