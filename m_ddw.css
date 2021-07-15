@@ -1,0 +1,20 @@
+@charset "UTF-8";
+*{
+font-family: 'Noto Sans KR', sans-serif;
+text-decoration: none;
+margin :0px 0px 0px 0px;
+padding: 0px;
+color:#000;
+text-align:center;
+}
+a {
+  color : #00B4DB;
+  text-decoration:none;
+  margin:0 0 0 0;
+}
+h1{
+  border-bottom-width:1px;
+  border-bottom-color:black;
+  border-bottom-style:solid;
+  margin:0px;
+}
