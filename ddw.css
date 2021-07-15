@@ -25,11 +25,24 @@ h1{
   display:block;
   float:center;
   margin-right:0;
+  width:"200px";
 }
 .pfswitch{
   margin:0;
 }
-
+.selectframe{
+  display:grid;
+  grid-template-columns:529px 529px;
+  margin : 0px 0px 0px 10px;
+}
+.sgridleft{
+  margin:0px;
+  border-right : 1px black solid;
+}
+.sgridright{
+  margin:0px;
+  display:grid;
+}
 .mainframe{
   display:grid;
   grid-template-columns:350px 709px;

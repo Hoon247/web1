@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+  <title>동동위키</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="m_ddw.css">
+  <script src="https://code.jquery.com/jquery-latest.js"></script>
+
+  <script>
+      $(document).ready(function(){
+          $("#emseong").click(function(){
+              var offset = $('#history_title_emseong').offset();
+              $('html').animate({scrollTop:offset.top}, 400);
+          }) ;
+      });
+  </script>
+
+  <script>
+      $(document).ready(function(){
+          $("#campfire").click(function(){
+              var offset = $('#history_title_campfire').offset();
+              $('html').animate({scrollTop:offset.top}, 400);
+          }) ;
+      });
+  </script>
+
+  <script>
+      $(document).ready(function(){
+          $("#gototop").click(function(){
+              var offset = $('#mainlogo').offset();
+              $('html').animate({scrollTop:offset.top}, 0);
+          }) ;
+      });
+  </script>
+  <div class="mobile_header">
+  <h1><a href="m_ddwiki_index.html"><img src="img/mainlogo.png" width="70%"></a>
+  </h1>
+</div>
+</head>
+<body>
+  <div class="iframe">
+  <div class="index_list">
+    <h2>목차</h2><br>
+    <ul>
+      <li><a href="m_ddwiki_opening.html" title ="소개"> 소개</font></a></li>
+      <li><a href="m_ddwiki_members.html" title ="구성원"> 구성원</font></a></li>
+      <li><a href="m_ddwiki_history.html" title ="히스토리"> 히스토리</font></a></li>
+    </ul>
+  </div>
+  <div class="history">
+    <h3>히스토리</h3>
+  <ol id="history_list">
+    <li><a href="#history_title_emseong" id="emseong">음성여행</a></li>
+    <li><a href="#history_title_campfire" id="campfire">대부도불멍</a></li>
+    <li><a href="#" id="ccc">???</a></li>
+    <li><a href="#" id="ddd">???</a></li>
+  </ol>
+    <h6>클릭하면 해당되는 구문으로 내려갑니다.</h6>
+    <br>
+    <br>
+    <h3 id="history_title_emseong">음성여행</h3>
+    <img src="img/ddgang_trip.jpg" width="100%">
+    <p style="margin:25px 10px 10px 10px;" class="history_body">
+    순기의 재입대를 위로(...)해주기 위해 재훈의 할머니댁인 음성으로 놀러가게 된다.
+    맛있는 음식들과 술을 먹으며 즐거운 시간을 보냈다. 코스트코와 동네 마트에서 신나게 장도 보고
+    순기가 집에서 연어숙성회를 해오기도 했다. 정말 맛있었던 메뉴.
+    그리고 기분이 좋았던 승현이 한우 20만원어치를 flex해 맛있게 구워먹었다.
+    <br>
+    <img src="img/bbq.gif" width="300px">
+    <br>
+    이 날, 새벽 5시까지 음주를 하고 거실에 모여 누웠다가 한 시간 동안 웃느라 6시에 잠에 들었다.
+    아침에 일어나 집 정리를 하고, 시내에서 커피를 사와 마당에서 햇볓을 쬐며
+    다들 오랜만에 느껴보는 자유로움과 농촌의 여유로움을 만끽하고 왔다.
+    주영의 "아 좋다" 가 3분에 한 번씩 튀어나오기도 했다.
+    <img src="img/emseong_girls.jpg" width="33%"><img src="img/emseong_mirror2.jpg" width="33%"><img src="img/emseong_afternoon.jpg" width="33%">
+    </p>
+    <br>
+    <p id="totop">
+    <a href="#" id="gototop">상단으로</a>
+    </p>
+    <br>
+    <h3 id="history_title_campfire">대부도불멍</h3>
+    <img src="img/campfire.jpg" width="100%">
+    <p style="margin:25px 10px 10px 10px;" class="history_body">
+    갑작스럽게 대부도에 고기를 구워먹기 위해 재료만 들고 출발을 한다.<br>
+    <br>
+    <img src="img/camp_ramen.gif" width="100%">
+    <br>
+    땔감을 주워 불을 피우고, 삼겹살과 소세지 그리고 라면을 맛있게 먹고 왔다. 안 익어도 맛있다.
+    물론 뒷정리는 정말 깨끗하게 하는 착한 청년들이다.
+    </p>
+    <br>
+    <p id="totop">
+    <a href="#" id="gototop">상단으로</a>
+    </p>
+    <br>
+    <h3 class="history_title" id="_head">업데이트예정</h3>
+    <p style="margin:25px 10px 10px 10px;" class="???_body">
+    <br>
+    </p>
+    <p id="totop">
+    <a href="#" id="gototop">상단으로</a>
+    </p>
+  </div>
+</div>
+
+<div class="bottom">
+  <div class = "platformswitch">
+    <input type="button" class ="pfswitch" value="버전선택"
+    onclick="location.href='ddwiki_home.html'">
+  </div>
+  동동위키 by 재훈재훈
+</div>
+</body>
+
+</html>
