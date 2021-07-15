@@ -22,8 +22,8 @@ h1{
   margin : 10px 0px 0px 10px;
 }
 #platformswitch{
-  display:inline;
-  float:right;
+  display:block;
+  float:center;
   margin-right:0;
 }
 .pfswitch{
