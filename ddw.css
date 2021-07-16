@@ -32,7 +32,8 @@ h1{
 }
 .selectframe{
   display:grid;
-  grid-template-columns:529px 529px;
+  grid-template-columns:40% 40%;
+  ...529px...
   margin : 0px 0px 0px 10px;
 }
 .sgridleft{
