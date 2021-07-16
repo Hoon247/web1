@@ -78,3 +78,17 @@ h3{
   display: block;
   float:center;
 }
+.selectframe{
+  display:grid;
+  grid-template-columns:50% 50%;
+  ...529px...
+  margin : 0px 0px 0px 10px;
+}
+.sgridleft{
+  margin:0px;
+  border-right : 1px black solid;
+}
+.sgridright{
+  margin:0px;
+  display:grid;
+}
