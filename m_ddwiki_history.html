@@ -115,6 +115,28 @@
   </div>
   동동위키 by 재훈재훈
 </div>
+<input type="hidden" value="" id="timeset">
+<script>
+var d = new Date();
+var n = d.getHours();
+if(n > 19 || n < 6){
+  document.getElementById("timeset").value = "night";
+}
+else{
+  document.getElementById("timeset").value = "day";
+}
+</script>
+
+<script>
+if(document.getElementById("timeset").value === "night"){
+  document.querySelector('body').style.backgroundColor = '#232323';
+  document.querySelector('body').style.color = 'white';
+}
+else{
+  document.querySelector('body').style.backgroundColor = 'white';
+  document.querySelector('body').style.color = 'black';
+}
+</script>
 </body>
 
 </html>
