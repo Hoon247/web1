@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="m_ddw.css">
   <div class="mobile_header">
-  <h1><a href="m_ddwiki_index.html"><img src="img/mainlogo.png" width="70%"></a>
+  <h1><a href="m_ddwiki_index.html"><img id = "mainlogo" src="img/mainlogo.png" width="70%"></a>
   </h1>
 </div>
 </head>
@@ -71,7 +71,7 @@ if(document.getElementById("timeset").value === "night"){
     alist[i].style.color = 'orange';
     i = i + 1;
   }
-
+  document.getElementById('mainlogo').src = 'img/mainlogo_dark.png';
 }
 else{
   document.querySelector('body').style.backgroundColor = 'white';
