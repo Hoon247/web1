@@ -65,10 +65,23 @@ else{
 if(document.getElementById("timeset").value === "night"){
   document.querySelector('body').style.backgroundColor = '#232323';
   document.querySelector('body').style.color = 'white';
+  var alist = document.querySelectorAll('a');
+  var i = 0;
+  while (i < alist.length) {
+    alist[i].style.color = 'orange';
+    i = i + 1;
+  }
+
 }
 else{
   document.querySelector('body').style.backgroundColor = 'white';
   document.querySelector('body').style.color = 'black';
+  var alist = document.querySelectorAll('a');
+  var i = 0;
+  while (i < alist.length) {
+    alist[i].style.color = '00B4DB';
+    i = i + 1;
+  }
 }
 </script>
 </body>
