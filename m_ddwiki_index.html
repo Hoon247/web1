@@ -4,7 +4,9 @@
   <title>동동위키</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="m_ddw.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="m_ddw.css">
@@ -35,42 +37,6 @@
   </div>
   동동위키 by 재훈재훈
 </div>
-
-<input type="hidden" value="" id="timeset">
-<script>
-var d = new Date();
-var n = d.getHours();
-if(n > 19 || n < 6){
-  document.getElementById("timeset").value = "night";
-}
-else{
-  document.getElementById("timeset").value = "day";
-}
-</script>
-
-<script>
-if(document.getElementById("timeset").value === "night"){
-  document.querySelector('body').style.backgroundColor = '#232323';
-  document.querySelector('body').style.color = 'white';
-  var alist = document.querySelectorAll('a');
-  var i = 0;
-  while (i < alist.length) {
-    alist[i].style.color = 'orange';
-    i = i + 1;
-  }
-  document.getElementById('mainlogo').src = 'img/mainlogo_dark.png';
-}
-else{
-  document.querySelector('body').style.backgroundColor = 'white';
-  document.querySelector('body').style.color = 'black';
-  var alist = document.querySelectorAll('a');
-  var i = 0;
-  while (i < alist.length) {
-    alist[i].style.color = '00B4DB';
-    i = i + 1;
-  }
-}
-</script>
 </body>
 
 </html>
