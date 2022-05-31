@@ -32,6 +32,15 @@
 
   <script>
       $(document).ready(function(){
+          $("#valley2021").click(function(){
+              var offset = $('#history_title_valley2021').offset();
+              $('html').animate({scrollTop:offset.top}, 400);
+          }) ;
+      });
+  </script>
+
+  <script>
+      $(document).ready(function(){
           $("#gototop").click(function(){
               var offset = $('#mainlogo').offset();
               $('html').animate({scrollTop:offset.top}, 0);
@@ -55,58 +64,146 @@
   </div>
   <div class="history">
     <h3>히스토리</h3>
+    <!-- ////////////////////히스토리 리스트//////////////////// -->
   <ol id="history_list">
     <li><a href="#history_title_emseong" id="emseong">음성여행</a></li>
     <li><a href="#history_title_campfire" id="campfire">대부도불멍</a></li>
-    <li><a href="#" id="ccc">???</a></li>
-    <li><a href="#" id="ddd">???</a></li>
+    <li><a href="#history_title_valley2021" id="valley2021">강화계곡 2021</a></li>
+    <li><a href="#history_title_snow2021" id="snow2021">눈썰매 2021</a></li>
+    <li><a href="#history_title_ski2022" id="ski2022">스키장 2022</a></li>
+    <li><a href="#history_title_party2022" id="party2022">술파티 in 대부도 2022</a></li>
+
   </ol>
     <h6>클릭하면 해당되는 구문으로 내려갑니다.</h6>
+    <!-- ////////////////////히스토리 리스트//////////////////// -->
+
     <br>
     <br>
+
+    <!-- ////////////////////음성여행//////////////////// -->
+
     <h3 id="history_title_emseong">음성여행</h3>
-    <img src="img/ddgang_trip.jpg" width="100%">
     <p style="margin:25px 10px 10px 10px;" class="history_body">
-    순기의 재입대를 위로(...)해주기 위해 재훈의 할머니댁인 음성으로 놀러가게 된다.
-    맛있는 음식들과 술을 먹으며 즐거운 시간을 보냈다. 코스트코와 동네 마트에서 신나게 장도 보고
-    순기가 집에서 연어숙성회를 해오기도 했다. 정말 맛있었던 메뉴.
-    그리고 기분이 좋았던 승현이 한우 20만원어치를 flex해 맛있게 구워먹었다.
     <br>
-    <img src="img/bbq.gif" width="300px">
-    <br>
-    이 날, 새벽 5시까지 음주를 하고 거실에 모여 누웠다가 한 시간 동안 웃느라 6시에 잠에 들었다.
-    아침에 일어나 집 정리를 하고, 시내에서 커피를 사와 마당에서 햇볓을 쬐며
-    다들 오랜만에 느껴보는 자유로움과 농촌의 여유로움을 만끽하고 왔다.
-    주영의 "아 좋다" 가 3분에 한 번씩 튀어나오기도 했다.
+    <img src="img/ddgang_trip.jpg" width="100%">
     <img src="img/emseong_girls.jpg" width="33%"><img src="img/emseong_mirror2.jpg" width="33%"><img src="img/emseong_afternoon.jpg" width="33%">
+    <br>
+    날짜 : 2021년 5월 21일<br>
+    장소 : 충청북도 음성군 재훈의 할머니댁
     </p>
     <br>
     <p id="totop">
     <a href="#" id="gototop">상단으로</a>
     </p>
+
+    <!-- ////////////////////음성여행//////////////////// -->
+
     <br>
+
+    <!-- ////////////////////대부도불멍//////////////////// -->
+
     <h3 id="history_title_campfire">대부도불멍</h3>
-    <img src="img/campfire.jpg" width="100%">
     <p style="margin:25px 10px 10px 10px;" class="history_body">
-    갑작스럽게 대부도에 고기를 구워먹기 위해 재료만 들고 출발을 한다.<br>
     <br>
+    <img src="img/campfire.jpg" width="100%">
     <img src="img/camp_ramen.gif" width="100%">
     <br>
-    땔감을 주워 불을 피우고, 삼겹살과 소세지 그리고 라면을 맛있게 먹고 왔다. 안 익어도 맛있다.
-    물론 뒷정리는 정말 깨끗하게 하는 착한 청년들이다.
+    날짜 : 2021년 3월 19일<br>
+    장소 : 대부도
     </p>
     <br>
     <p id="totop">
     <a href="#" id="gototop">상단으로</a>
     </p>
+
+    <!-- ////////////////////대부도불멍//////////////////// -->
+
     <br>
-    <h3 class="history_title" id="_head">업데이트예정</h3>
-    <p style="margin:25px 10px 10px 10px;" class="???_body">
+
+    <!-- ////////////////////계곡//////////////////// -->
+
+    <h3 id="history_title_valley2021">강화계곡 2021</h3>
+    <p style="margin:25px 10px 10px 10px;" class="history_body">
     <br>
+    <img src="img/valley2021_1.jpeg" width="100%">
+    <img src="img/valley2021_2.jpeg" width="100%">
+    <img src="img/valley2021_3.jpeg" width="100%">
+    <img src="img/valley2021_4.jpeg" width="100%">
+    <br>
+    날짜 : 2021년 8월 20일<br>
+    장소 : 인천광역시 강화군
     </p>
     <p id="totop">
     <a href="#" id="gototop">상단으로</a>
     </p>
+
+    <!-- ////////////////////계곡//////////////////// -->
+
+    <br>
+
+    <!-- ////////////////////눈썰매//////////////////// -->
+
+    <h3 id="history_title_snow2021">눈썰매 2021</h3>
+    <p style="margin:25px 10px 10px 10px;" class="history_body">
+    <br>
+    <img src="img/snow2021_1.jpeg" width="100%">
+    <img src="img/snow2021_2.jpeg" width="100%">
+    <img src="img/snow2021_3.jpeg" width="100%">
+    <img src="img/snow2021_4.gif" width="100%">
+    <br>
+    날짜 : 2021년 12월 18일<br>
+    장소 : 동춘동 봉재산
+    </p>
+    <p id="totop">
+    <a href="#" id="gototop">상단으로</a>
+    </p>
+
+    <!-- ////////////////////눈썰매//////////////////// -->
+
+    <br>
+
+    <!-- ////////////////////스키장//////////////////// -->
+
+    <h3 id="history_title_ski2022">스키장 2022</h3>
+    <p style="margin:25px 10px 10px 10px;" class="history_body">
+    <br>
+    <img src="img/ski2022_1.jpeg" width="100%">
+    <img src="img/ski2022_2.jpeg" width="100%">
+    <img src="img/ski2022_3.jpeg" width="100%">
+    <img src="img/ski2022_4.jpeg" width="100%">
+    <h6>사람이 멀쩡하지 않아 멀쩡한 사진이 없슴다...</h6>
+    <br>
+    날짜 : 2022년 2월 13일<br>
+    장소 : 평창 휘닉스파크
+    </p>
+    <p id="totop">
+    <a href="#" id="gototop">상단으로</a>
+    </p>
+
+    <!-- ////////////////////스키장//////////////////// -->
+
+    <br>
+
+    <!-- ////////////////////술파티//////////////////// -->
+
+    <h3 id="history_title_party2022">술파티 in 대부도 2022</h3>
+    <p style="margin:25px 10px 10px 10px;" class="history_body">
+    <br>
+    <img src="img/party2022_1.jpeg" width="100%">
+    <img src="img/party2022_2.jpeg" width="100%">
+    <img src="img/party2022_3.jpeg" width="100%">
+    <img src="img/party2022_4.jpeg" width="100%">
+    <br>
+    날짜 : 2022년 5월 28일<br>
+    장소 : 대부도 펜션
+    </p>
+    <p id="totop">
+    <a href="#" id="gototop">상단으로</a>
+    </p>
+
+    <!-- ////////////////////술파티//////////////////// -->
+
+
   </div>
 </div>
 
